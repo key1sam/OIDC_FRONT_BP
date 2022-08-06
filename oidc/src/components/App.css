@@ -1,0 +1,119 @@
+.App {
+
+}
+
+.grafana{
+  background-color: #282c34;
+}
+.grafana .iframe_small{
+  width: 33.3%;
+}
+.grafana .iframe_mid{
+  width: 50%;
+}
+.grafana .iframe_big{
+  width: 100%;
+}
+
+/* 버튼 == example_c */
+.container-name {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.table .example_c {
+  font-style: bold;
+  font-family: 'Open Sans';
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 2px;
+  border: 4px solid #494949;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  
+}
+
+.table .example_c:hover {
+  color: #ffffff;
+  background: #212529;
+  border-color: #212529;
+  transition: all 0.4s ease 0s;
+}
+
+.example_c {
+  font-family: 'Open Sans';
+  color: #494949;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 2px;
+  border: 4px solid #494949;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.example_c:hover {
+  color: #ffffff;
+  background: #212529;
+  border-color: #212529;
+  transition: all 0.4s ease 0s;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.table {
+    width: 100%;
+    border: 2px solid #444444;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.table th {
+  border: 1px solid #444444;
+}
+
+.table td {
+  text-align: center;
+  justify-content: center;
+  border: 1px solid #444444;
+}
+
+.analysis {
+  font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
