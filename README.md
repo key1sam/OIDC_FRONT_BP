@@ -1,7 +1,7 @@
 # OIDC_FRONT
 
 ## 1. Repo에 대한 설명
-### 이 Repo는 제 4회 OIDC에 참가한 '정통' 팀의 "MigHelper Service"의 FRONT-END부분인 "OIDC_FRONT" 레파지토리를 Build하여 배포하기 위한 레파지토리이다.
+### 이 Repo는 제 4회 OIDC에 참가한 '정통' 팀의 "Cloud Helper Service"의 FRONT-END부분인 "OIDC_FRONT" 레파지토리를 Build하여 배포하기 위한 레파지토리이다.
 
 ### 2. 배포방법
     1. local에서 생성한 react에서 build 폴더 생성
